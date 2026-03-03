@@ -1,37 +1,26 @@
-# Data Science Internship: Multi-Task Repository
+# Data Science Internship: Multi-Task Portfolio
 
-![Build Status](https://github.com/nikhilmanvi360/data-science-internship-task/actions/workflows/ci.yml/badge.svg)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-
-This repository contains a collection of Data Science internship projects, focused on exploratory data analysis (EDA), predictive modeling, and data visualization.
+Welcome to my Data Science internship repository. This project is organized into two distinct tasks focusing on exploratory analysis and predictive modeling.
 
 ---
 
-## 🏏 Phase 1: IPL Cricket Data Analytics
+## 📂 Repository Structure
 
-Highlights team performance, toss impact, and venue statistics using historical IPL match data.
+### [🏏 Task 1: IPL Cricket Data Analytics](./Task-1-IPL-Analysis)
+Comprehensive analysis of historical IPL match data to identify team performance trends, toss impact, and venue statistics.
+- **Key Features**: Wins/Loss analysis, Toss success rates, Venue popularity.
+- **Tools**: Pandas, Matplotlib, Seaborn.
 
-- **Main Script**: `ipl_analysis.py`
-- **Key Visuals**: `01_successful_teams.png`, `02_toss_impact.png`, `03_venue_performance.png`
-- **Documentation**: [IPL Project Summary](PROJECT_SUMMARY.txt)
-
----
-
-## 🎓 Phase 2: Student Score Predictor (ML)
-
-A Linear Regression model designed to predict student exam scores based on study hours. This tool proactively identifies at-risk students by forecasting results.
-
-- **Main Script**: `student_score_predictor.py`
-- **Model Results**: R² Score ~0.93
-- **Key Visuals**: `eda_plot.png`, `regression_results.png`
+### [🎓 Task 2: Student Score Predictor (ML)](./Task-2-Student-Score-Predictor)
+A machine learning project using Linear Regression to predict student exam scores based on hours of study.
+- **Key Features**: Predictive modeling, EDA, Risk identification for at-risk students.
+- **Tools**: Scikit-learn, NumPy, Matplotlib.
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Environment Setup
-
+### 1. Setup Environment
 ```bash
 # Clone the repository
 git clone https://github.com/nikhilmanvi360/data-science-internship-task.git
@@ -41,36 +30,17 @@ cd data-science-internship-task
 python3 -m venv venv
 source venv/bin/activate
 
-# Install dependencies
+# Install all dependencies
 pip install -r requirements.txt
 ```
 
-### 2. Running the Tools
-
-- **IPL Analysis**:
-  ```bash
-  python3 ipl_analysis.py
-  ```
-
-- **Score Predictor**:
-  ```bash
-  python3 student_score_predictor.py
-  ```
+### 2. Navigate and Run
+Each task is self-contained within its own directory. Navigate to a task folder to explore its specific implementation and run the scripts.
 
 ---
 
-## 📂 File Structure
-
-- `requirements.txt` — Project dependencies
-- `DATA_DICTIONARY.md` — Detailed explanation of data fields
-- `QUICK_START_GUIDE.md` — Extended setup instructions
-- `projectoverview.md` — Broad overview of project aims
-
 ## 🤝 Contributing
-Feel free to open issues or PRs. For formatting and style, follow standard Python conventions.
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
 ## 📄 License
-MIT
-
-## 📬 Contact
-- **GitHub Repository**: [nikhilmanvi360/data-science-internship-task](https://github.com/nikhilmanvi360/data-science-internship-task)
+[MIT](LICENSE)

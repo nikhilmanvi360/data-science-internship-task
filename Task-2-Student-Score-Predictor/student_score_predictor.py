@@ -31,8 +31,8 @@ plt.ylabel('Marks')
 plt.title('Study Hours vs Marks')
 plt.legend()
 plt.grid(True)
-plt.savefig('eda_plot.png')
-print("\nEDA plot saved as 'eda_plot.png'")
+plt.savefig('outputs/eda_plot.png')
+print("\nEDA plot saved as 'outputs/eda_plot.png'")
 
 # 3. PREPARE DATA
 print("\n--- 3. Preparing Data ---")
@@ -67,8 +67,8 @@ plt.ylabel('Marks')
 plt.title('Linear Regression: Study Hours vs Predicted Marks')
 plt.legend()
 plt.grid(True)
-plt.savefig('regression_results.png')
-print("\nRegression visualization saved as 'regression_results.png'")
+plt.savefig('outputs/regression_results.png')
+print("\nRegression visualization saved as 'outputs/regression_results.png'")
 
 # 7. PREDICT FUNCTION
 print("\n--- 7. Predict Function (Manual Input) ---")

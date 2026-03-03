@@ -134,7 +134,7 @@ def visualize_successful_teams(team_stats):
     ax.set_ylim(0, top_5_teams['Wins'].max() * 1.15)
 
     plt.tight_layout()
-    plt.savefig('01_successful_teams.png', dpi=300, bbox_inches='tight')
+    plt.savefig('outputs/01_successful_teams.png', dpi=300, bbox_inches='tight')
     plt.show()
 
     return fig
@@ -222,7 +222,7 @@ def visualize_toss_impact(toss_impact):
     ax2.grid(axis='y', alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig('02_toss_impact.png', dpi=300, bbox_inches='tight')
+    plt.savefig('outputs/02_toss_impact.png', dpi=300, bbox_inches='tight')
     plt.show()
 
     return fig
@@ -302,7 +302,7 @@ def visualize_venue_performance(venue_df):
     ax.set_xlim(0, venue_df['Total_Matches'].max() * 1.15)
 
     plt.tight_layout()
-    plt.savefig('03_venue_performance.png', dpi=300, bbox_inches='tight')
+    plt.savefig('outputs/03_venue_performance.png', dpi=300, bbox_inches='tight')
     plt.show()
 
     return fig
@@ -366,7 +366,7 @@ def main():
 
     # Load and clean data
     print("\n" + "LOADING DATA..." + "\n")
-    filepath = Path('ipl_matches_100.csv')
+    filepath = Path('data/ipl_matches_100.csv')
 
     if not filepath.exists():
         print(f"Error: {filepath} not found!")
@@ -406,9 +406,9 @@ def main():
     print("ANALYSIS COMPLETE")
     print("=" * 70)
     print("\nAll visualizations saved:")
-    print("   - 01_successful_teams.png")
-    print("   - 02_toss_impact.png")
-    print("   - 03_venue_performance.png")
+    print("   - outputs/01_successful_teams.png")
+    print("   - outputs/02_toss_impact.png")
+    print("   - outputs/03_venue_performance.png")
     print("\n" + "=" * 70 + "\n")
 
 if __name__ == "__main__":
