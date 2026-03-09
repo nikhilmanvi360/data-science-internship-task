@@ -1,6 +1,6 @@
 # Data Science Internship: Multi-Task Portfolio
 
-Welcome to my Data Science internship repository. This project is organized into two distinct tasks focusing on exploratory analysis and predictive modeling.
+Welcome to my Data Science internship repository. This project is a comprehensive portfolio consisting of three distinct tasks focusing on exploratory analysis, predictive modeling, and interactive dashboards.
 
 ---
 
@@ -15,6 +15,11 @@ Comprehensive analysis of historical IPL match data to identify team performance
 A machine learning project using Linear Regression to predict student exam scores based on hours of study.
 - **Key Features**: Predictive modeling, EDA, Risk identification for at-risk students.
 - **Tools**: Scikit-learn, NumPy, Matplotlib.
+
+### [🚀 Task 3: EdTech Student Course Purchase Predictor](./task3)
+An advanced ML application that predicts whether a student is likely to enroll in a new course based on behavioral data and platform engagement.
+- **Key Features**: RandomForest classification, Interactive Streamlit UI, Real-time purchase likelihood.
+- **Tools**: Scikit-learn, Streamlit, Pandas, Joblib.
 
 ---
 
@@ -35,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Navigate and Run
-Each task is self-contained within its own directory. Navigate to a task folder to explore its specific implementation and run the scripts.
+Each task is self-contained within its own directory. Navigate to a task folder (e.g., `cd task3`) to explore its specific implementation and run the scripts or applications.
 
 ---
 
